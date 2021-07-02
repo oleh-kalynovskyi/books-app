@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/oleh-kalynovskyi/books-app/static/css/main.fc265f9b.chunk.css",
+    "main.js": "/oleh-kalynovskyi/books-app/static/js/main.a4cdc7f4.chunk.js",
+    "main.js.map": "/oleh-kalynovskyi/books-app/static/js/main.a4cdc7f4.chunk.js.map",
+    "runtime-main.js": "/oleh-kalynovskyi/books-app/static/js/runtime-main.e62dfc4e.js",
+    "runtime-main.js.map": "/oleh-kalynovskyi/books-app/static/js/runtime-main.e62dfc4e.js.map",
+    "static/js/2.4bbf247f.chunk.js": "/oleh-kalynovskyi/books-app/static/js/2.4bbf247f.chunk.js",
+    "static/js/2.4bbf247f.chunk.js.map": "/oleh-kalynovskyi/books-app/static/js/2.4bbf247f.chunk.js.map",
+    "index.html": "/oleh-kalynovskyi/books-app/index.html",
+    "static/css/main.fc265f9b.chunk.css.map": "/oleh-kalynovskyi/books-app/static/css/main.fc265f9b.chunk.css.map",
+    "static/js/2.4bbf247f.chunk.js.LICENSE.txt": "/oleh-kalynovskyi/books-app/static/js/2.4bbf247f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e62dfc4e.js",
+    "static/js/2.4bbf247f.chunk.js",
+    "static/css/main.fc265f9b.chunk.css",
+    "static/js/main.a4cdc7f4.chunk.js"
+  ]
+}
