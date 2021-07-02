@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body, html {
+  background: rgb(47, 159, 172);
+  
+  width: 100%;
+  height: 100%;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  padding: 50px 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1124px;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+}
+
+.btn {
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  background: rebeccapurple;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  transition: all .3s;
+}
+.btn:hover{
+  color: rebeccapurple;
+  background: white;
+
+}
+.btn-grup-action {
+  display: flex;
+  margin: 20px 0;
+  text-decoration: none;
+  list-style: none;
+}
+.modal {
+  color: red;
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title {
+  display: flex;
+}
+.main-title {
+  color: rgb(102, 51, 153);
+  border: 1px solid rgb(102, 51, 153);
+  border-radius: 10px;
+  padding: 15px 20px 20px 20px;
+}
+
+.dashbord {
+  display: flex;
+}
+.dashbord .btn-grup-action .add-book-btn {
+  position: relative;
+  
+  font-weight: bold;
+  list-style: none;
+  color: rgb(0, 0, 0)  ;
+  transition:  all .3s ease-out;
+}
+.add-book-btn:first-child {
+  margin-right: 20px;
+}
+.dashbord .btn-grup-action .add-book-btn:hover {
+  color: rgb(0, 0, 255);
+}
+.dashbord .btn-grup-action .add-book-btn::before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: rgb(0, 0, 255);
+  transition: width 0.3s ease-in-out;
+  left: 0;
+  bottom: -5px;
+}
+.dashbord .btn-grup-action .add-book-btn:hover:before {
+  width: 100%;
+}
+
+.all-book {
+  margin-right: 20px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+}
+.book-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  background: wheat;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.add-book-form label {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.add-book-form input, select {
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.add-book-form input:focus {
+  border-bottom: 1px solid red;
+}
+
+.add-book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
